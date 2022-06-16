@@ -22,3 +22,9 @@ while True:
     print('\nПервое число наоборот:', reverse(n1))
     print('Второе число наоборот:', reverse(n2))
     print('Сумма:', reverse(n1) + reverse(n2))
+    activ = int(input('Продолжаем работать? 1/0: '))
+    if activ == 0:
+        print('Приложение закрывается...')
+        break
+print('Работа завершена')
+
